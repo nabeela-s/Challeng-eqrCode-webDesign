@@ -1,15 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
     text-align: center;
+    margin: 0;
 }
 
 .sticker {
-    /* height: 80%; */
-    width: 40%; 
-    height: 430px;
-    min-width: 200px;
+    width: 40%;
+    height: calc(100% - 280px);
+    min-width: 250px;
     max-width: 300px;
     background-color: hsl(0, 0%, 100%);
     margin: 100px auto;
@@ -23,6 +32,10 @@ body {
     border-radius: 10px;
 }
 
+.msg {
+    padding: 15px;
+}
+
 .big-bold {
     font-weight: bold;
     font-size: 1.2rem;
@@ -30,9 +43,13 @@ body {
 }
 
 .msg p:last-child {
-    color:hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 55%);
 }
 
+/* .stick-bottom {
+    position: sticky;
+    bottom: 0;
+} */
 
 .attribution {
     font-size: 11px;
