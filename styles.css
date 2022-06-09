@@ -1,0 +1,44 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.sticker {
+    /* height: 80%; */
+    width: 40%; 
+    height: 430px;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.sticker img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.big-bold {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.msg p:last-child {
+    color:hsl(220, 15%, 55%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
